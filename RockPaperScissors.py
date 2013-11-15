@@ -15,6 +15,7 @@
 import random
 
 def number_to_name(number):
+    # fill in your code below
     if number == 0:
         return "rock"
     elif number == 1:
@@ -26,9 +27,9 @@ def number_to_name(number):
     elif number == 4:
         return "scissors"
     else:
-        print "Sorry, that number it's not an option"
+        print ("Sorry, that number it's not an option")
     # convert number to a name using if/elif/else
-
+    # don't forget to return the result!
 
     
 def name_to_number(name):
@@ -48,11 +49,11 @@ def name_to_number(name):
     
 
     # convert name to number using if/elif/else
-
+    # don't forget to return the result!
 
 
 def rpsls(name): 
-
+    # fill in your code below
     name = name_to_number(name)
     player_number = name
     # convert name to player_number using name_to_number
@@ -62,35 +63,36 @@ def rpsls(name):
     # compute difference of player_number and comp_number modulo five
     computer_guess = number_to_name(comp_number)
     player_guess = number_to_name(player_number)
-  
-    # use if/elif/else to determine winner  
+   
     if player == 1 or player == 2:
-        print "Player chooses " + player_guess
-        print "Computer choose " + computer_guess
-        print "player wins!"
-        print ""
+        print ("Player chooses " + player_guess)
+        print ("Computer choose " + computer_guess)
+        print ("player wins!")
+        print ("")
     elif player == 3 or player == 4:
-        print "Player chooses " + player_guess
-        print "Computer choose " + computer_guess
-        print "computer wins!"
-        print ""
+        print ("Player chooses " + player_guess)
+        print ("Computer choose " + computer_guess)
+        print ("computer wins!")
+        print ("")
     else:
-       print "Player chooses " + player_guess
-       print "Computer choose " + computer_guess
-       print "Player and Computer tie"
-       print ""
+       print ("Player chooses " + player_guess)
+       print ("Computer choose " + computer_guess)
+       print ("Player and Computer tie")
+       print ("")
+    # use if/elif/else to determine winner
 
-
-
+    # convert comp_number to name using number_to_name
+    
+    # print results
 
     
-# test the code
+# test your code
 rpsls("rock")
 rpsls("Spock")
 rpsls("paper")
 rpsls("lizard")
 rpsls("scissors")
 
-
+# always remember to check your completed program against the grading rubric
 
 
