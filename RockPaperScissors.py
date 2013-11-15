@@ -11,7 +11,7 @@
 # 3 - lizard
 # 4 - scissors
 
-# helper functions
+
 import random
 
 def number_to_name(number):
@@ -29,7 +29,7 @@ def number_to_name(number):
     else:
         print ("Sorry, that number it's not an option")
     # convert number to a name using if/elif/else
-    # don't forget to return the result!
+
 
     
 def name_to_number(name):
@@ -49,7 +49,7 @@ def name_to_number(name):
     
 
     # convert name to number using if/elif/else
-    # don't forget to return the result!
+
 
 
 def rpsls(name): 
@@ -86,13 +86,13 @@ def rpsls(name):
     # print results
 
     
-# test your code
+# test my code
 rpsls("rock")
 rpsls("Spock")
 rpsls("paper")
 rpsls("lizard")
 rpsls("scissors")
 
-# always remember to check your completed program against the grading rubric
+
 
 
